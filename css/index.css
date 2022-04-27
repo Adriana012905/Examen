@@ -73,6 +73,24 @@ header .opciones ul li a {
     padding:10px;
     height:40%;
 }
+
+#news-feed .row .left-col .boton{
+  border:none;
+  width:100%;
+  color:#fff;
+  font-size:20px;
+  background:#527198;
+  padding:  15 px 20px;
+  border-radius:5px;
+  cursor: pointer;
+
+}
+
+#news-feed .row .left-col .boton:hover{
+background:#97bae7;
+  
+}
+
 #news-feed .row .right-col {
     width: 15%;
 }
