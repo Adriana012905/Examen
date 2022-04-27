@@ -64,10 +64,15 @@ header .opciones ul li a {
 
 /* news feed */
 
+
 #news-feed .row .left-col {
     width: 75%;
 }
-
+#news-feed .row .left-col img {
+    width: 90%;
+    padding:10px;
+    height:40%;
+}
 #news-feed .row .right-col {
     width: 15%;
 }
@@ -138,3 +143,5 @@ header .opciones ul li a {
 #news-feed figure figcaption span {
     color: white;
 }
+
+
