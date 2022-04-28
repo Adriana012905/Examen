@@ -67,6 +67,8 @@ header .opciones ul li a {
 
 #news-feed .row .left-col {
     width: 75%;
+     height:40%;
+
 }
 #news-feed .row .left-col img {
     width: 90%;
@@ -161,5 +163,16 @@ background:#97bae7;
 #news-feed figure figcaption span {
     color: white;
 }
+
+/* footer */
+
+footer .icon {
+    
+    min-width: 1124px;
+    width: 100%;
+    background: rgb(245, 245, 245);
+    height: 50%;
+}
+
 
 
