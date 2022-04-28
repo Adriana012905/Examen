@@ -189,14 +189,35 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
 #news-feed figure figcaption span {
     color: white;
 
+  
 footer{
-   display: flex;
+    display: flex;
     flex-direction: column;
     min-width: 1124px;
     width: 100%;
-    background: rgb(115, 181, 242);
+    background: rgb(108, 122, 249);
     height: 500px;
 }
+
+footer .icon .red{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+footer .icon .presentacion{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+  
 
 footer .copyright {
     display: flex;
