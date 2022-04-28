@@ -133,6 +133,7 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
     margin: 25px 0 20px 0;
     font-family: LibreFranklin-Bold, sans-serif;
     font-size: 25px; 
+    display:inline;
 }
 
 #news-feed h2 {
