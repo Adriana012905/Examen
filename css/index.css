@@ -109,19 +109,21 @@ background:#97bae7;
 }
 
 #news-feed .row .right-col article {
-  height: 50%;
+  height: 35%;
 }
 
 #news-feed .row .right-col article .deportes {
   border: dashed;
   border-width: 1px;
 border-color:#ddd4d4;
+  padding:10;
 }
 
 #news-feed .row .right-col article .tecnologia {
   border: dashed;
   border-width: 1px;
   border-color:#ddd4d4;
+  padding:10;
 }
 
 hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
