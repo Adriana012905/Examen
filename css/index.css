@@ -62,6 +62,12 @@ header .opciones ul li a {
     font-family: Raleway, sans-serif;
     text-decoration: none;
 }
+header a:hover{
+    background-color: #d9d8e4;
+    color: black;
+    transition: ease-in .4s;
+    border:20rem;
+}
 
 /* news feed */
 
@@ -82,7 +88,7 @@ header .opciones ul li a {
   width:100%;
   color:#fff;
   font-size:20px;
-  background:#527198;
+  background:#5d79ea;
   padding:  15 px 20px;
   border-radius:5px;
   cursor: pointer;
@@ -186,25 +192,49 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
 #news-feed figure:hover figcaption {
     background: black;
 }
+.footer {
+        background-color: #c2c2c2;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        padding: 2%;
+ }
 
-#news-feed figure figcaption span {
-    color: white;
+ .f-enlaces{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 1%;
+ }
 
+ .f-enlaces a {
+    padding: 2%;
+    margin-right: 4%;
+    font-size:1.3vw;
+    text-decoration: none;
+    color : #000000;
+}
+ .f-informacion{
+    width: 30%;
+}
+.f-informacion a{
+    width: 30%;
+    font-size:1.3vw;
+    text-decoration: none;
+}
+.cierre{
+    width: 100%;
+    background-color: #0a003d;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
 
-
-
-@media(min-width:768px){
+@media(min-width:2000px){
  header .logo img {
     margin:auto;
     
-  }
-}
-
-@media(min-width:768px){
-  .container{
-    margin:auto;
-    width:500px;
-    margin-top:100px;
   }
 }
 
@@ -216,4 +246,3 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
 
   
 }
-
