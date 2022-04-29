@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@200&family=League+Gothic&family=Playfair+Display:ital@0;1&display=swap');
+
 @media only screen and (min-width:50px){
-.container {
+body{
+font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+  
+  .container {
     width: 1124px;
     margin-right: auto;
     margin-left: auto;
@@ -25,6 +34,7 @@ header .logo img {
 }
 header .logo h1 {
   padding:10px;
+  color:#1c1c1c
 }
 header .tiempo {
     display: flex;
@@ -43,7 +53,7 @@ header .opciones {
     justify-content: flex-start;
     height: 40px;
     color: grey;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #5d79ea;
 }
 
 header .opciones ul {
@@ -59,7 +69,6 @@ header .opciones ul li {
 header .opciones ul li a {
     color: grey;
     font-size: 16px;
-    font-family: Raleway, sans-serif;
     text-decoration: none;
 }
 header a:hover{
@@ -138,14 +147,12 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
 
 #news-feed h1 {
     margin: 25px 0 20px 0;
-    font-family: LibreFranklin-Bold, sans-serif;
     font-size: 25px; 
     display:inline;
 }
 
 #news-feed h2 {
     color: black;
-    font-family: LibreFranklin-Bold, sans-serif;
     font-size: 16px;
     flex-grow: 1;
 
@@ -155,7 +162,6 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
 #news-feed p {
     flex-grow: 1;
     font-size: 20px;
-    font-family: LibreFranklin-Thin, sans-serif;
   color: grey;
   border:dashed;
   border-width: 1px;
@@ -181,7 +187,6 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
     width: auto;
     padding: 15px;
     border-radius: 5px;
-    font-family: LibreFranklin-Bold, sans-serif;
     background: rgb(0, 0, 0, 0.6);
 
     position: absolute;
@@ -193,42 +198,53 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
     background: black;
 }
 .footer {
-        background-color: #c2c2c2;
+        background-color: #d3d6e4;
         display: flex;
         width: 100%;
         align-items: center;
         color: rgb(0, 0, 0);
         padding: 2%;
+        min-width: 1124px;
  }
 
- .f-enlaces{
+ .enlaces{
      width: 70%;
      display: flex;
      align-items: center;
      padding: 1%;
  }
 
- .f-enlaces a {
+ .enlaces a {
     padding: 2%;
     margin-right: 4%;
     font-size:1.3vw;
     text-decoration: none;
     color : #000000;
 }
- .f-informacion{
+ .info{
     width: 30%;
 }
-.f-informacion a{
+.info a{
     width: 30%;
     font-size:1.3vw;
     text-decoration: none;
 }
-.cierre{
+.espacio{
     width: 100%;
-    background-color: #0a003d;
-    color: #fff;
+    background-color: #5d79ea;
+    color: black;
     text-align: center;
     padding: 1%;
+    min-width: 1124px;
+}
+  
+.cierre{
+    width: 100%;
+    background-color: #d3d6e4;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    min-width: 1124px;
 }
 
 @media(min-width:2000px){
@@ -243,6 +259,4 @@ hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
     width:50%;
   
 }
-
-  
 }

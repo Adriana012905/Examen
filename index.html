@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Index</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Index</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" >
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" >
   <link href="css/index.css" rel="stylesheet" type="text/css" />
- 
+  <script src="js/script.js"></script>
 </head>
 
-<body onload="leernoticias();">
+<body  onload="leernoticias();">
  <header>
    <div class="container">
                 <div class="logo">
@@ -59,74 +58,58 @@
      </div>
 
 </header>
-  <main>
-   <section id="news-feed" class="container">
-                <div class="row">
-                    <div class="left-col">
-                          <img  id="img"class="imagen" src="http://www.elmundo.com/images/ediciones/Viernes_28_2_2014/Viernes_28_2_2014@@Elecciones-escolares-600.jpg">
-                      <article>
-                     <div class="noticia1">
-                            <h1 id="titulo">Democracia Estudiantil</h1><h1 id="categoria">-Colegio-</h1><h1 id="fecha">20 de marzo de 2021</h1>
-                            <p id="descripción">párrafo</p></hr>
-                          
-                          </div>
-                        </article>
-
-                   <article>
-                     <div class="noticia1">
-                            <h1 id="titulo">Democracia Estudiantil</h1><h1 id="categoria">-Colegio-</h1><h1 id="fecha">20 de marzo de 2021</h1>
-                            <p id="descripción">párrafo</p></hr>
-                          
-                          </div>
-                        </article>
-
-                       <article>
-                     <div class="noticia1">
-                            <h1 id="titulo">Democracia Estudiantil</h1><h1 id="categoria">-Colegio-</h1><h1 id="fecha">20 de marzo de 2021</h1>
-                            <p id="descripción">párrafo</p></hr>
-                          
-                          </div>
-                        </article>
- 
-       <input class="boton" type="button" value="Todas las noticias" id="noticias">
-                    </div>
-                    <div class="right-col">
-                        <article>
-                         <div class="deportes">
-                        <h1>Deportes </h1>
-                          <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2><hr/> 
-                          <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2><hr/> 
-                          <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2>
-                          </div>
-                        </article>
-                        
-                        <article>
-                            <div class="tecnologia">
-                              <h1>Tecnología </h1>
-                            <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2><hr/>
-                           <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2><hr/>
-                            <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2>
-                      </article>
-
+  	<main>
+   		<section id="news-feed" class="container">
+        	<div class="row">
+                <div class="left-col">
+                	<div>
+                    	<img  id="img" class="imagen" src="http://www.elmundo.com/images/ediciones/Viernes_28_2_2014/Viernes_28_2_2014@@Elecciones-escolares-600.jpg" style="border-style: ridge;">
+                	</div>
+                	<div id="salida">
+                	</div>
+           
+ 					<input class="boton" type="button" value="Todas las noticias" id="noticias">
                 </div>
-            </section>
-        </main>
-
- <footer class="footer">
-            <div class="f-enlaces">
+                
+                <div class="right-col">
+                    <article>
+                        <div class="deportes">
+                        	<h1>Deportes </h1>
+                          	<h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2><hr/> 
+                          	<h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2><hr/> 
+                          	<h2>FMI, inflación, reservas y presupuesto: Alberto Fernández reunió al gabinete </h2>
+                        </div>
+                    </article>
+                        
+                    <article>
+                        <div class="tecnologia">
+                            <h1>Tecnología </h1>
+                            <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2><hr/>
+                            <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2><hr/>
+                            <h2>FMI, inflación, reservas y presupuesto: Alberto Fernández</h2>
+                        </div>    
+                    </article>
+                </div>
+           
+            </div>    
+        </section>
+    </main>
+	<footer class="footer">
+            <div class="enlaces">
                 <img src="img/icon.png" alt="" height="35px" />
-                <a href="#">Pagina </br> Colegio</a>
-                <img src="img/icon.png" alt="" height="35px" />
+                <a href="#">Página </br> Colegio</a>
+                <img src="img/gmail1.png" alt="" height="35px" />
                 <a href="#">Correo </br>  Gmail</a>
                 <img src="img/icon.png" alt="" height="35px" />
-                <a href="#">Pagina</br>Santillana</a>
+                <a href="#">Página</br>Santillana</a>
             </div>
-            <div class="f-informacion">
-                Email <a href="">periodico@colegioufps.edu.co</a><br />
-                Twitter <a href="">@Periodicoufps</a><br />
+            <div class="info">
+                Email: <a href="mailto:periodico@colegioufps.edu.co"">periodico@colegioufps.edu.co</a><br />
+                Twitter: <a href="">@Periodicoufps</a><br />
                 Av 20 N 12-34 Cúcuta
             </div>
         </footer>
+        <div class="espacio"></div>
         <div class="cierre">2022 Colegio Gimnasio UFPS</div>
 </body>
 </html>
